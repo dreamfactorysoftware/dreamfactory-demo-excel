@@ -5,12 +5,12 @@
 1. Import the [MySQL Employees](https://dev.mysql.com/doc/employee/en/) sample database into a MySQL database 
 2. Generate an API for this database
 
-![alt text](./createservice.png)
+![alt text](src/images/createservice.png)
 
 3. Create a [role and API key](http://guide.dreamfactory.com/docs/chapter03.html#creating-a-role) capable of talking to this database.
 
-![alt text](./createrole.png)
-![alt text](./createapikey.png)
+![alt text](src/images/createrole.png)
+![alt text](src/images/createapikey.png)
 
 4. Copy config.js.example to config.js and update the apiKey and url with the API Key we just generated. The URL will look like http(s)://<YOUR_URL>/api/v2/<SERVICE_NAME>
 
