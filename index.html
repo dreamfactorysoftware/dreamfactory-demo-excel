@@ -19,6 +19,8 @@
   <!--FONT AWESOME-->
   <script src="https://kit.fontawesome.com/865561b243.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+
+  <script src="scripts/main.js"></script>
 </head>
 <body>
 
@@ -43,8 +45,18 @@
       </a>
     </div>
   </div>
-</nav>
 
+  <div class="username-navbar">
+    Hi,
+    <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span id="username"></span>
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <button class="dropdown-item btn btn-link" onclick="logout()">Logout</button>
+    </div>
+  </div>
+
+</nav>
 
 <div class="main-container">
 
@@ -63,7 +75,6 @@
     <div id="example-table"></div>
   </div>
 
-  <script src="scripts/main.js"></script>
   <script src="scripts/tabulator.js"></script>
 
 </body>

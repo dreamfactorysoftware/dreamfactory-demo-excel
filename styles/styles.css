@@ -43,6 +43,28 @@ body {
     color: #1d3d56;
 }
 
+.username-navbar {
+    margin: 0 30px 0 auto;
+    position: relative;
+    right: 0;
+}
+
+.username-navbar > button {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    margin: 0;
+    text-align: center;
+    padding: 8px 16px 8px 0;
+}
+
+.dropdown-menu {
+    left: auto;
+    right: 0;
+}
 
 .topic {
     display: flex;
@@ -155,6 +177,10 @@ body {
 
     .navbar-items-container {
         margin-bottom: 10px;
+    }
+
+    .username-navbar {
+        margin: 0 0 10px 0;
     }
 }
 
