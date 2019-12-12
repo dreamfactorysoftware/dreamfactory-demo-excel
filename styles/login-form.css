@@ -34,35 +34,27 @@
     border-radius: 5px;
 }
 
-.form-input-row {
+.form-button-row {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin: 40px;
 }
 
-.form-input-row:last-of-type {
-    margin-bottom: 0;
-}
-.form-input-row > label {
-    font-weight: bold;
-}
 
-.form-input {
-    border: 1px solid #e6e6e6;
-    border-radius: 2px;
-    box-shadow: 0 1px 3px rgba(0,0,0,.175);
-    width: 100%;
-    font-size: 18px;
-    padding: 5px 3px;
-}
-
-.submit-button {
+.signin-button {
     background-color: #4098e1;
     border: none;
     border-radius: 5px;
-    padding: 8px 20px;
+    padding: 15px 20px;
     color: #ffffff;
     font-weight: bold;
+    transition: .3s ease;
+}
+
+.signin-button:hover {
+    text-decoration: none;
+    color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
