@@ -24,7 +24,7 @@
     - On [this step](https://guide.dreamfactory.com/docs/chapter04.html#adding-okta-users-to-the-dreamfactory-application) you should go in the <b>login.html</b> and add href like in the guide.
         ![alt text](src/images/oktalink_readme.png)
 
-7. Install the [http-server NPM package](https://www.npmjs.com/package/http-server) `npm install http-server -g`
+7. To review the results, you can install the [http-server NPM package](https://www.npmjs.com/package/http-server) `npm install http-server -g`
     - http-server is a simple, zero-configuration command-line http server for testing, local development, and learning.
 
 8. Run http-server from inside the project root directory `http-server .` and load the specified URL to the browser.
