@@ -2,11 +2,11 @@
 
 ## Installation
 
-1. Create a Excel service.
+1. Create an Excel service.
 
     ![alt text](src/images/createservice_readme.png)
 
-2. Select service in the services directory and add your Excel file.
+2. Select service in the services directory and add <b>example-spreadsheet.ods</b> file from the root directory.
 
     ![alt text](src/images/addexcelfile_readme.png)
 
