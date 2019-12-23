@@ -26,7 +26,7 @@ function getPayload(jwt) {
 }
 
 function getUserById(id) {
-    fetch(`http://excel.staging-spg.dreamfactory.com/api/v2/system/user/${id}`, {
+    fetch(`${config.userUrl}/${id}`, {
         dataType: 'json',
         headers: {
             "X-DreamFactory-Api-Key": config.apiKey

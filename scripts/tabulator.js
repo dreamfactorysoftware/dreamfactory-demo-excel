@@ -106,5 +106,5 @@ $(document).ready(function(){
         },
     };
 
-    table.setData(config.url, {}, ajaxConfig);
+    table.setData(config.spreadsheetUrl, {}, ajaxConfig);
 });
