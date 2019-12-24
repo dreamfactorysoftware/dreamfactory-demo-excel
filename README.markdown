@@ -20,7 +20,7 @@
     - The spreadsheetUrl will look like http(s)://<YOUR_URL>/api/v2/<SERVICE_NAME>/_spreadsheet/<SPREADSHEET_NAME>/\<WORKSHEET>
     - The userUrl will look like http(s)://<YOUR_URL>/api/v2/system/user
     
-5. Configure Okta connector using [this guide](https://guide.dreamfactory.com/docs/chapter04.html#the-openid-authentication-process).
+5. Configure Okta connector using [this guide](https://guide.dreamfactory.com/docs/chapter04.html#authenticating-with-okta).
     - On [this step](https://guide.dreamfactory.com/docs/chapter04.html#adding-okta-users-to-the-dreamfactory-application) you should go in the <b>login.html</b> and add href like in the guide.
         ![alt text](src/images/oktalink_readme.png)
 
