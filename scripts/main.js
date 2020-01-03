@@ -2,7 +2,7 @@
 let jwt = window.location.href.split('jwt=')[1];
 
 function redirectToLogin() {
-    window.location.assign('/login');
+    window.location.assign('/login.html');
 }
 
 if (!jwt) {
