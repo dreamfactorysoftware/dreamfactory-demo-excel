@@ -1,7 +1,7 @@
 var config = {
   "apiKey": "YOUR_DREAMFACTORY_API_KEY",
   "spreadsheetUrl": "https://www.example.com/api/v2/excel/_spreadsheet/example-spreadsheet.xlsx?with_worksheet_names=false",
-  "userUrl": "https://.com/api/v2/system/user",
+  "userUrl": "https://www.example.com/api/v2/system/user",
   "useOkta": false,
   "identityPostfix": "+okta_sso"
 }
