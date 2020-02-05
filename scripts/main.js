@@ -5,12 +5,14 @@ function redirectToLogin() {
     window.location.assign('/login');
 }
 
-if (!jwt) {
+if (!jwt && config.useOkta == true) {
     redirectToLogin();
 }
 else {
-    localStorage.setItem('jwt', jwt);
-    getPayload(jwt);
+    if (config.useOkta == true) {
+        localStorage.setItem('jwt', jwt);
+        getPayload(jwt);
+    }
 }
 
 
@@ -45,7 +47,11 @@ function getUserById(id) {
 }
 
 function setUsername(username) {
-    document.getElementById('username').innerText = username.replace('+okta_sso', '');
+    if (config.useOkta == true) {
+        document.getElementById('username').innerText = username.replace(config.identityPostFix, '');
+    } else {
+        document.getElementById('username').innerText = 'User';
+    }
 }
 
 function logout() {
